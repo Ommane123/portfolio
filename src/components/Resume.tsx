@@ -97,7 +97,7 @@ export const Resume: React.FC<{ isDarkMode: boolean }> = ({ isDarkMode }) => {
 
           <div className="flex items-center space-x-3 w-full md:w-auto">
             <a
-              href="/Om_Mane_Resume.pdf"
+              href="./Om_Mane_Resume.pdf"
               download="Om_Mane_Resume.pdf"
               className="flex-1 md:flex-initial px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white text-sm font-semibold rounded-xl flex items-center justify-center space-x-1.5 shadow-md hover:shadow-cyan-500/20 transition-all duration-300"
             >
@@ -106,7 +106,7 @@ export const Resume: React.FC<{ isDarkMode: boolean }> = ({ isDarkMode }) => {
             </a>
             
             <a
-              href="/Om_Mane_Resume.pdf"
+              href="./Om_Mane_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={`flex-1 md:flex-initial px-5 py-2.5 border text-sm font-semibold rounded-xl flex items-center justify-center space-x-1.5 transition-all duration-300
